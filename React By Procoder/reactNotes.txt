@@ -1,0 +1,37 @@
+-------------------------------LECTURE 1 ----------------------------------------
+why we need react ? 
+jab bh hm js kay through dom mai changes karty hain so react mai hm har chez ko btatay nh hain 
+hm react mai har chez ko aik compoenet ki tarhn sochty hain or hm usko reuse kar skty hain 
+SPA (single page application) => using react we create 
+aik bar load kar kay bar bar apko load nh karna hota isay 
+start mai he sab say pehly hmy sara data mil jata h bar bar server say render nh karna hota h 
+
+Vaninall JS => Pure JS => Imperative Programming
+
+Imperative programming means variable ko change karo to DOM ko agar change karna h to btana paray ga 
+But react is a declarative programming means initial apko btana h or khud woh DOM mai changes karay ga or DOM mai khud chezain update ho jay ga. Once declare automatically done it self is called declarative programming 
+
+React provide component based architecture => like we can use one component multiple times 
+
+It provides SPA => single page application 
+
+we made application of apple adding in basket.
+
+-----------------------------------------LECTURE 2----------------------------------------------
+React browser kay ilawa bh bohtt jagh chal skta h but react dom jo h na woh browsers kay liyay hota h 
+React kay object mai say we use createElement to create react element 
+react developers ny aik aise library bna di h js ko use kar kay jo hmara js ka code or easy kardy ge 
+react khud aik choti library h about 3000 lines ki but react dom jo hmy browser sayt connect karwati h woh kafii bari library h about of 30,000 lines 
+React.createElement => aik function h khud 
+const h2 = react.createElement('h2',{className: 'subheading'},'Leraning React Element');
+and this line will give us an object 
+
+react dom ko use kar kay ab hm is h2 ko DOM mai dal skty hain
+const root = ReactDOM.createRoot(document.querySelector('#root));
+root.render(h2);
+
+babel aik compiler h jo kay code ko convert kardyta h aisay format mai jsx kay jo browser smjh skta h
+matlb jsx ko normal js mai kardyta h 
+
+----------------------------------------LECTURE 2-----------------------------------------
+
